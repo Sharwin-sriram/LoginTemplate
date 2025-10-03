@@ -407,15 +407,18 @@ footer a:hover {
 
 .copyright {
   left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .note {
-  position: fixed;
-  right: 0.5rem;
+  color: var();
 }
 
 .note span {
-  color: black;
+  color: rgb(125, 193, 220);
 }
 
 @property --angle {
