@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: nona;
 }
 
 :root {
@@ -198,8 +199,8 @@ input:not(:focus):valid+label {
 
 .forgot-password::after,
 .forgot-password::before,
-.register span::after,
-.register span::before {
+.register a::after,
+.register a::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -209,25 +210,25 @@ input:not(:focus):valid+label {
   transition: 800ms;
 }
 
-.register span::after,
-.register span::before {
+.register a::after,
+.register a::before {
   height: 2px;
 }
 
-.register span::before,
+.register a::before,
 .forgot-password::before {
   left: 50%;
 }
 
-.register span::after,
+.register a::after,
 .forgot-password::after {
   right: 50%;
 }
 
 .forgot-password:hover::after,
 .forgot-password:hover::before,
-.register span:hover::before,
-.register span:hover::after {
+.register a:hover::before,
+.register a:hover::after {
   width: 50%;
 }
 
